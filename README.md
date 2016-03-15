@@ -5,7 +5,8 @@ https://jjyap.wordpress.com/2014/05/24/installing-opencv-2-4-9-on-mac-osx-with-p
 Building code which uses opencv using cmake 
 http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_gcc_cmake/linux_gcc_cmake.html
 
-Face recognition on Raspberry PI
+<b>Face recognition on Raspberry PI</b>
+
 	- Prepare face dataset
 		- Take pictures using testPicture (built from $HOME/raspi/testStill.cpp)
 		similar to the ones in images directory. Make sure the eyes are on the
