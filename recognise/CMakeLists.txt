@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Workshop )
+find_package( OpenCV REQUIRED )
+add_executable( recognise classify.cpp )
+target_link_libraries( classify ${OpenCV_LIBS} raspicamcv)
